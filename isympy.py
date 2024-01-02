@@ -98,16 +98,6 @@ COMMAND LINE OPTIONS
     This is equivalent to setting the environment variable
     SYMPY_USE_CACHE to 'no'.
 
--a, --auto-symbols (requires at least IPython 0.11)
-
-    Automatically create missing symbols.  Normally, typing a name of a
-    Symbol that has not been instantiated first would raise NameError,
-    but with this option enabled, any undefined name will be
-    automatically created as a Symbol.
-
-    Note that this is intended only for interactive, calculator style
-    usage. In a script that uses SymPy, Symbols should be instantiated
-    at the top, so that it's clear what they are.
 
     This will not override any names that are already defined, which
     includes the single character letters represented by the mnemonic
